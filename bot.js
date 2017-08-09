@@ -151,7 +151,7 @@ function upload_random_tip() {
   });
 }
 
-if (current_date.getDate() == 3) {
+if (current_date.getDate() == 4) {
   setImmediate(upload_random_tip);
 }
 else {
